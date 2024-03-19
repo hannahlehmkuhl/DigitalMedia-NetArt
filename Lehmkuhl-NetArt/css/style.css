@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  margin: 0;
+  color: black;
+  overflow: hidden;
+
+}
+
+header {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(255, 255, 255);
+  grid-area: h;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #2a2a2c;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  font-size: 46px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #2a2a2c;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+.css1 {
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 46px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #2a2a2c;
+  color: rgb(0, 0, 0);
+  grid-area: a;
+  display: flex;
+  scroll-behavior: auto; 
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 85%;
+  margin: 0 !important;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #2a2a2c;
+}
+
+nav h2 a {
+  background-color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px #2a2a2c;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  grid-area: n;
+}
+
+aside {
+  grid-area: s;
+  background-color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px #2a2a2c;
+  padding: 10px;
+  margin: 10px;
+}
+
+section {
+  grid-area: m;
+  background-color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px #2a2a2c;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+footer {
+  grid-area: f;
+  background-color: #0765a4; 
+  color: white;  
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 250px;
+  font-size: 10px;
+  margin: auto; 
+}
+
+#grid-container {
+  display: grid;
+  min-height: 100vh;
+  grid-template-areas:
+    "h h h h h h h h"
+    "a a a a a a a a"
+    "n n n n n n n n"
+    "s m m m m m m m"
+    "s m m m m m m m"
+    "s m m m m m m m"
+    "s m m m m m m m"
+    "f f f f f f f f";
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#intro {
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  position: fixed;
+  bottom: 60px;
+  right: 1000px;
+  z-index: 999;
+  font-size: 26px;
+}
+
+#secondpageaside {
+  line-height: 34px;
+}
+
