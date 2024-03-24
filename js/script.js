@@ -6,10 +6,13 @@ var currentImageIndex = 0; // Initial index of the image
 var imagePaths = [
   "img/IMG_9250.jpg",
   "img/IMG_9253.jpg",
+  "img/IMG_93274.jpg",
   "img/IMG_9256.jpg",
   "img/IMG_9265.jpg",
+  "img/IMG_9375.jpg",
   "img/IMG_9270.jpg",
   "img/IMG_9266.jpg"
+  
 ];
 
 function changeImage() {
